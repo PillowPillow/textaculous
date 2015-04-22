@@ -1,7 +1,8 @@
 angular.module('textaculous')
 	.service('textaculous.drop', [
 	'textaculous.parser',
-	function(parserService) {
+	'textaculous.constants.config',
+	function(parserService, CONFIG) {
 		var currentTether,
 			currentTarget;
 
@@ -40,8 +41,8 @@ angular.module('textaculous')
 			currentTether = new Drop({
 				target: newTarget,
 				content: content,
-				classes: 'drop-theme-arrows-bounce',
-				position: 'bottom left',
+				classes: CONFIG.classes,
+				position: CONFIG.position,
 				constrainToWindow: false,
 				constrainToScrollParent: false,
 				openOn: ''

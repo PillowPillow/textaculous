@@ -1,4 +1,6 @@
 angular.module('textaculous')
 	.constant('textaculous.constants.config', {
-		tag: '@'
+		tag: '@',
+		classes: 'drop-theme-arrows-bounce',
+		position: 'bottom left'
 	});
