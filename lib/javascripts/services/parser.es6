@@ -28,7 +28,7 @@ angular.module('textaculous')
 				highlighted = [];
 
 			for(var i = 0; i<splitted.length; i++) {
-				if(splitted[i][0] === CONFIG.tag) {
+				if(splitted[i][0] === CONFIG.tag && splitted[i].length > 1) {
 					highlighted.push(splitted[i]);
 					highlightedIndexes.push(i);
 					highlightedRanges.push([$length, $length+splitted[i].length]);
