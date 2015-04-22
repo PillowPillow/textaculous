@@ -1,0 +1,14 @@
+section.front
+   textarea(ng-click="selectText($event)" ng-model="raw", ng-trim="false", wrap="hard")
+
+section.back
+   pre.highlight
+      span(ng-repeat="part in Textaculous.text track by $index")
+         span(
+            ng-if="!isHighlighted($index)") {{part}}
+         span(
+            ng-if="isHighlighted($index)"
+            class="highlighted") {{part}}
+
+section.hidden-container
+   article.tether-pop
