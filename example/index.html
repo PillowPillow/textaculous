@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+	<meta charset="UTF-8">
+	<title></title>
+
+	<link rel="stylesheet" href="../lib/styles/textaculous.css"/>
+	<link rel="stylesheet" href="./libraries/drop/drop.css"/>
+</head>
+<body ng-app="app" ng-init="value=''">
+	{{value}}
+	<textaculous ng-model="value"><button ng-click="Textaculous.current='lolipop';">stop</button></textaculous>
+
+	<script src="../bower_components/angular/angular.js"></script>
+	<script src="../bower_components/tether/tether.js"></script>
+	<script src="./libraries/drop/drop.js"></script>
+
+	<script src="../lib/javascripts/core.js"></script>
+	<script src="../lib/javascripts/constants/config.js"></script>
+	<script src="../lib/javascripts/templates/core.js"></script>
+	<script src="../lib/javascripts/services/drop.js"></script>
+	<script src="../lib/javascripts/services/parser.js"></script>
+	<script src="../lib/javascripts/controllers/textaculous.js"></script>
+	<script src="../lib/javascripts/directives/textaculous.js"></script>
+	<script src="../lib/javascripts/directives/highlighted.js"></script>
+
+	<script src="modules/core.js"></script>
+	<script src="modules/controllers/app.js"></script>
+</body>
+</html>
