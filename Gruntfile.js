@@ -122,7 +122,9 @@ function Grunt(grunt) {
 				'lib/javascripts/templates/core.js',
 				'lib/javascripts/services/drop.js',
 				'lib/javascripts/services/parser.js',
-				'lib/javascripts/controllers/textaculous.js'
+				'lib/javascripts/controllers/textaculous.js',
+				'lib/javascripts/directives/textaculous.js',
+				'lib/javascripts/directives/highlighted.js'
 			],
 			dest: 'dist/<%= package.name %>.js'
 		},

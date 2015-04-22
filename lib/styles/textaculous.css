@@ -1,14 +1,21 @@
-textaculous {
+textaculous, [textaculous] {
 	display: block;
 	position: relative;
 	font-family: monospace;
 }
 
-textaculous * {
+textaculous *,
+[textaculous] *{
 	box-sizing: border-box;
 }
 
-textaculous .front {
+textaculous .hidden-container,
+[textaculous] .hidden-container {
+	display: none;
+}
+
+textaculous .front,
+[textaculous] .front {
 	width: 100%;
 	position: absolute;
 	top: 0px;
@@ -17,7 +24,8 @@ textaculous .front {
 	right: 0px;
 }
 
-textaculous .front textarea {
+textaculous .front textarea,
+[textaculous] .front textarea {
 	word-break: break-all;
 	background-color: transparent;
 	width: 100%;
@@ -27,34 +35,33 @@ textaculous .front textarea {
 	resize: none;
 }
 
-textaculous .back {
+textaculous .back,
+[textaculous] .back {
 	/*color: transparent;*/
 	padding: 3px;
 	width: 100%;
 }
 
-textaculous .back pre {
+textaculous .back pre,
+[textaculous] .back pre {
 	margin: 0 0 20px 0;
 	white-space: pre-wrap;
 }
 
-textaculous .back pre span, textaculous .front textarea {
+textaculous .back pre span, textaculous .front textarea,
+[textaculous] .back pre span, [textaculous] .front textarea {
 	word-break: break-all;
 }
 
-textaculous .back pre span.highlighted {
+textaculous .back pre span.highlighted,
+[textaculous] .back pre span.highlighted {
 	color: red;
 }
 
-textaculous .back pre span.highlighted:hover {
+textaculous .back pre span.highlighted:hover,
+[textaculous] .back pre span.highlighted:hover {
 	color: blue;
 }
-
-.tether-pop {
-	background-color: #d7cfff;
-	width: 100px;
-}
-
 
 .tether-element,
 .tether-element:after,
