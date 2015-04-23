@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="WEB_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$" />
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library">
+      <library name="PHP">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../KampN/kampn3/vendor/doctrine/collections" />
+          <root url="file://$MODULE_DIR$/../../KampN/kampn3/vendor/cmutter/google-adwords-api" />
+          <root url="file://$MODULE_DIR$/../../KampN/kampn3/vendor/willdurand/negotiation" />
+          <root url="file://$MODULE_DIR$/../../KampN/kampn3/vendor/doctrine/common" />
+          <root url="file://$MODULE_DIR$/../../KampN/kampn3/vendor/doctrine/inflector" />
+          <root url="file://$MODULE_DIR$/../../KampN/kampn3/vendor/doctrine/orm" />
+          <root url="file://$MODULE_DIR$/../../KampN/kampn3/vendor/psr/log" />
+          <root url="file://$MODULE_DIR$/../../KampN/kampn3/vendor/doctrine/dbal" />
+          <root url="file://$MODULE_DIR$/../../KampN/kampn3/vendor/phpcollection/phpcollection" />
+          <root url="file://$MODULE_DIR$/../../KampN/kampn3/vendor/ddeboer/data-import" />
+          <root url="file://$MODULE_DIR$/../../KampN/kampn3/vendor/doctrine/annotations" />
+          <root url="file://$MODULE_DIR$/../../KampN/kampn3/vendor/facebook/php-ads-sdk" />
+          <root url="file://$MODULE_DIR$/../../KampN/kampn3/vendor/phpoffice/phpexcel" />
+          <root url="file://$MODULE_DIR$/../../KampN/kampn3/vendor/phpoption/phpoption" />
+          <root url="file://$MODULE_DIR$/../../KampN/kampn3/vendor/sensio/generator-bundle" />
+          <root url="file://$MODULE_DIR$/../../KampN/kampn3/vendor/jdorn/sql-formatter" />
+          <root url="file://$MODULE_DIR$/../../KampN/kampn3/vendor/doctrine/cache" />
+          <root url="file://$MODULE_DIR$/../../KampN/kampn3/vendor/twig/twig" />
+          <root url="file://$MODULE_DIR$/../../KampN/kampn3/vendor/jms/serializer-bundle" />
+          <root url="file://$MODULE_DIR$/../../KampN/kampn3/vendor/jms/cg" />
+          <root url="file://$MODULE_DIR$/../../KampN/kampn3/vendor/jms/parser-lib" />
+          <root url="file://$MODULE_DIR$/../../KampN/kampn3/vendor/willdurand/js-translation-bundle" />
+          <root url="file://$MODULE_DIR$/../../KampN/kampn3/vendor/facebook/v2.3.0" />
+          <root url="file://$MODULE_DIR$/../../KampN/kampn3/vendor/jms/serializer" />
+          <root url="file://$MODULE_DIR$/../../KampN/kampn3/vendor/symfony/symfony" />
+          <root url="file://$MODULE_DIR$/../../KampN/kampn3/vendor/symfony/monolog-bundle" />
+          <root url="file://$MODULE_DIR$/../../KampN/kampn3/vendor/doctrine/lexer" />
+          <root url="file://$MODULE_DIR$/../../KampN/kampn3/vendor/kriswallsmith/assetic" />
+          <root url="file://$MODULE_DIR$/../../KampN/kampn3/vendor/symfony/assetic-bundle" />
+          <root url="file://$MODULE_DIR$/../../KampN/kampn3/vendor/friendsofsymfony/user-bundle" />
+          <root url="file://$MODULE_DIR$/../../KampN/kampn3/vendor/snc/redis-bundle" />
+          <root url="file://$MODULE_DIR$/../../KampN/kampn3/vendor/ddeboer/data-import-bundle" />
+          <root url="file://$MODULE_DIR$/../../KampN/kampn3/vendor/sensio/distribution-bundle" />
+          <root url="file://$MODULE_DIR$/../../KampN/kampn3/vendor/incenteev/composer-parameter-handler" />
+          <root url="file://$MODULE_DIR$/../../KampN/kampn3/vendor/friendsofsymfony/rest-bundle" />
+          <root url="file://$MODULE_DIR$/../../KampN/kampn3/vendor/symfony/swiftmailer-bundle" />
+          <root url="file://$MODULE_DIR$/../../KampN/kampn3/vendor/doctrine/doctrine-bundle" />
+          <root url="file://$MODULE_DIR$/../../KampN/kampn3/vendor/jms/security-extra-bundle" />
+          <root url="file://$MODULE_DIR$/../../KampN/kampn3/vendor/jms/di-extra-bundle" />
+          <root url="file://$MODULE_DIR$/../../KampN/kampn3/vendor/predis/predis" />
+          <root url="file://$MODULE_DIR$/../../KampN/kampn3/vendor/twig/extensions" />
+          <root url="file://$MODULE_DIR$/../../KampN/kampn3/vendor/swiftmailer/swiftmailer" />
+          <root url="file://$MODULE_DIR$/../../KampN/kampn3/vendor/friendsofsymfony/jsrouting-bundle" />
+          <root url="file://$MODULE_DIR$/../../KampN/kampn3/vendor/lunetics/locale-bundle" />
+          <root url="file://$MODULE_DIR$/../../KampN/kampn3/vendor/ornicar/apc-bundle" />
+          <root url="file://$MODULE_DIR$/../../KampN/kampn3/vendor/facebook/v2.2.3" />
+          <root url="file://$MODULE_DIR$/../../KampN/kampn3/vendor/halilim/xml-iterator" />
+          <root url="file://$MODULE_DIR$/../../KampN/kampn3/vendor/composer" />
+          <root url="file://$MODULE_DIR$/../../KampN/kampn3/vendor/jms/aop-bundle" />
+          <root url="file://$MODULE_DIR$/../../KampN/kampn3/vendor/monolog/monolog" />
+          <root url="file://$MODULE_DIR$/../../KampN/kampn3/vendor/willdurand/jsonp-callback-validator" />
+          <root url="file://$MODULE_DIR$/../../KampN/kampn3/vendor/jms/metadata" />
+          <root url="file://$MODULE_DIR$/../../KampN/kampn3/vendor/sensio/framework-extra-bundle" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/../../KampN/kampn3/vendor/doctrine/collections" />
+          <root url="file://$MODULE_DIR$/../../KampN/kampn3/vendor/cmutter/google-adwords-api" />
+          <root url="file://$MODULE_DIR$/../../KampN/kampn3/vendor/willdurand/negotiation" />
+          <root url="file://$MODULE_DIR$/../../KampN/kampn3/vendor/doctrine/common" />
+          <root url="file://$MODULE_DIR$/../../KampN/kampn3/vendor/doctrine/inflector" />
+          <root url="file://$MODULE_DIR$/../../KampN/kampn3/vendor/doctrine/orm" />
+          <root url="file://$MODULE_DIR$/../../KampN/kampn3/vendor/psr/log" />
+          <root url="file://$MODULE_DIR$/../../KampN/kampn3/vendor/doctrine/dbal" />
+          <root url="file://$MODULE_DIR$/../../KampN/kampn3/vendor/phpcollection/phpcollection" />
+          <root url="file://$MODULE_DIR$/../../KampN/kampn3/vendor/ddeboer/data-import" />
+          <root url="file://$MODULE_DIR$/../../KampN/kampn3/vendor/doctrine/annotations" />
+          <root url="file://$MODULE_DIR$/../../KampN/kampn3/vendor/facebook/php-ads-sdk" />
+          <root url="file://$MODULE_DIR$/../../KampN/kampn3/vendor/phpoffice/phpexcel" />
+          <root url="file://$MODULE_DIR$/../../KampN/kampn3/vendor/phpoption/phpoption" />
+          <root url="file://$MODULE_DIR$/../../KampN/kampn3/vendor/sensio/generator-bundle" />
+          <root url="file://$MODULE_DIR$/../../KampN/kampn3/vendor/jdorn/sql-formatter" />
+          <root url="file://$MODULE_DIR$/../../KampN/kampn3/vendor/doctrine/cache" />
+          <root url="file://$MODULE_DIR$/../../KampN/kampn3/vendor/twig/twig" />
+          <root url="file://$MODULE_DIR$/../../KampN/kampn3/vendor/jms/serializer-bundle" />
+          <root url="file://$MODULE_DIR$/../../KampN/kampn3/vendor/jms/cg" />
+          <root url="file://$MODULE_DIR$/../../KampN/kampn3/vendor/jms/parser-lib" />
+          <root url="file://$MODULE_DIR$/../../KampN/kampn3/vendor/willdurand/js-translation-bundle" />
+          <root url="file://$MODULE_DIR$/../../KampN/kampn3/vendor/facebook/v2.3.0" />
+          <root url="file://$MODULE_DIR$/../../KampN/kampn3/vendor/jms/serializer" />
+          <root url="file://$MODULE_DIR$/../../KampN/kampn3/vendor/symfony/symfony" />
+          <root url="file://$MODULE_DIR$/../../KampN/kampn3/vendor/symfony/monolog-bundle" />
+          <root url="file://$MODULE_DIR$/../../KampN/kampn3/vendor/doctrine/lexer" />
+          <root url="file://$MODULE_DIR$/../../KampN/kampn3/vendor/kriswallsmith/assetic" />
+          <root url="file://$MODULE_DIR$/../../KampN/kampn3/vendor/symfony/assetic-bundle" />
+          <root url="file://$MODULE_DIR$/../../KampN/kampn3/vendor/friendsofsymfony/user-bundle" />
+          <root url="file://$MODULE_DIR$/../../KampN/kampn3/vendor/snc/redis-bundle" />
+          <root url="file://$MODULE_DIR$/../../KampN/kampn3/vendor/ddeboer/data-import-bundle" />
+          <root url="file://$MODULE_DIR$/../../KampN/kampn3/vendor/sensio/distribution-bundle" />
+          <root url="file://$MODULE_DIR$/../../KampN/kampn3/vendor/incenteev/composer-parameter-handler" />
+          <root url="file://$MODULE_DIR$/../../KampN/kampn3/vendor/friendsofsymfony/rest-bundle" />
+          <root url="file://$MODULE_DIR$/../../KampN/kampn3/vendor/symfony/swiftmailer-bundle" />
+          <root url="file://$MODULE_DIR$/../../KampN/kampn3/vendor/doctrine/doctrine-bundle" />
+          <root url="file://$MODULE_DIR$/../../KampN/kampn3/vendor/jms/security-extra-bundle" />
+          <root url="file://$MODULE_DIR$/../../KampN/kampn3/vendor/jms/di-extra-bundle" />
+          <root url="file://$MODULE_DIR$/../../KampN/kampn3/vendor/predis/predis" />
+          <root url="file://$MODULE_DIR$/../../KampN/kampn3/vendor/twig/extensions" />
+          <root url="file://$MODULE_DIR$/../../KampN/kampn3/vendor/swiftmailer/swiftmailer" />
+          <root url="file://$MODULE_DIR$/../../KampN/kampn3/vendor/friendsofsymfony/jsrouting-bundle" />
+          <root url="file://$MODULE_DIR$/../../KampN/kampn3/vendor/lunetics/locale-bundle" />
+          <root url="file://$MODULE_DIR$/../../KampN/kampn3/vendor/ornicar/apc-bundle" />
+          <root url="file://$MODULE_DIR$/../../KampN/kampn3/vendor/facebook/v2.2.3" />
+          <root url="file://$MODULE_DIR$/../../KampN/kampn3/vendor/halilim/xml-iterator" />
+          <root url="file://$MODULE_DIR$/../../KampN/kampn3/vendor/composer" />
+          <root url="file://$MODULE_DIR$/../../KampN/kampn3/vendor/jms/aop-bundle" />
+          <root url="file://$MODULE_DIR$/../../KampN/kampn3/vendor/monolog/monolog" />
+          <root url="file://$MODULE_DIR$/../../KampN/kampn3/vendor/willdurand/jsonp-callback-validator" />
+          <root url="file://$MODULE_DIR$/../../KampN/kampn3/vendor/jms/metadata" />
+          <root url="file://$MODULE_DIR$/../../KampN/kampn3/vendor/sensio/framework-extra-bundle" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="PHARS">
+        <CLASSES>
+          <root url="phar://$MODULE_DIR$/../../KampN/kampn3/vendor/symfony/symfony/src/Symfony/Component/DependencyInjection/Tests/Fixtures/includes/ProjectWithXsdExtensionInPhar.phar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="phar://$MODULE_DIR$/../../KampN/kampn3/vendor/symfony/symfony/src/Symfony/Component/DependencyInjection/Tests/Fixtures/includes/ProjectWithXsdExtensionInPhar.phar" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+  </component>
+</module>
