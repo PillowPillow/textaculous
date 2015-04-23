@@ -36,7 +36,10 @@ angular.module('textaculous')
 						}
 					});
 
-					dropService.onClose(() => clearCarretPosition());
+					angular.element(textaculous.$$textarea)
+						.on('keydown keyup', clearCarretPosition)
+
+					dropService.onClose(clearCarretPosition);
 
 					$scope.selectText = (event) => {
 						clearCarretPosition();
