@@ -17,7 +17,7 @@ angular.module('textaculous')
 				compile: () => ($scope, $node, attributes, [textaculous,ngModel], transclude) => {
 
 					var node = $node[0],
-					carretPosition = {start:undefined,end:undefined};
+						carretPosition = {start:undefined,end:undefined};
 
 					textaculous.text = [];
 					textaculous.$$ranges = [];
@@ -36,12 +36,11 @@ angular.module('textaculous')
 						}
 					});
 
-					dropService.onClose(function() {
-						carretPosition.start = undefined;
-						carretPosition.end = undefined;
-					});
+					dropService.onClose(() => clearCarretPosition());
 
 					$scope.selectText = (event) => {
+						clearCarretPosition();
+
 						textaculous.$$currentIndex = dropService.trigger({
 							highlightedRanges: textaculous.$$ranges,
 							positionStart: textaculous.$$textarea.selectionStart,
@@ -88,6 +87,10 @@ angular.module('textaculous')
 							textaculous.$$currentIndex = index;
 					});
 
+					function clearCarretPosition() {
+						carretPosition.start = undefined;
+						carretPosition.end = undefined;
+					}
 
 					transclude($scope, (clone) => angular.element(textaculous.$$tetherContent).append(clone));
 
