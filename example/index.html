@@ -5,23 +5,23 @@
 	<title></title>
 
 	<link rel="stylesheet" href="../lib/styles/textaculous.css"/>
-	<link rel="stylesheet" href="./libraries/drop/drop.css"/>
+	<link rel="stylesheet" href="../bower_components/tether/dist/css/tether.css"/>
+	<link rel="stylesheet" href="../bower_components/tether-drop/dist/css/drop-theme-arrows-bounce.css"/>
 </head>
 <body ng-app="app" ng-init="value=''">
-	{{value}}
-	<textaculous ng-model="value"><button ng-click="Textaculous.current='lolipop';">stop</button></textaculous>
+	<textaculous ng-model="value" placeholder="'foobar'"><button ng-click="Textaculous.current='foobar';">insert text</button></textaculous>
 
 	<script src="../bower_components/angular/angular.js"></script>
-	<script src="../bower_components/tether/tether.js"></script>
-	<script src="./libraries/drop/drop.js"></script>
+	<script src="../bower_components/tether/dist/js/tether.js"></script>
+	<script src="../bower_components/tether-drop/dist/js/drop.js"></script>
 
-	<script src="../dist/textaculous.js"></script>
+	 <script src="../dist/textaculous.js"></script>
 
 	<!--<script src="../lib/javascripts/core.js"></script>-->
 	<!--<script src="../lib/javascripts/constants/config.js"></script>-->
 	<!--<script src="../lib/javascripts/templates/core.js"></script>-->
-	<!--<script src="../lib/javascripts/services/drop.js"></script>-->
 	<!--<script src="../lib/javascripts/services/parser.js"></script>-->
+	<!--<script src="../lib/javascripts/services/drop.js"></script>-->
 	<!--<script src="../lib/javascripts/controllers/textaculous.js"></script>-->
 	<!--<script src="../lib/javascripts/directives/textaculous.js"></script>-->
 	<!--<script src="../lib/javascripts/directives/highlighted.js"></script>-->

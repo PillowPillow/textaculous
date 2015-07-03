@@ -1,1 +1,1 @@
-angular.module('app', ['textaculous']);
+var ahaha = angular.module('app', ['textaculous']);

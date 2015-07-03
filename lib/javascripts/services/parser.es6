@@ -46,4 +46,5 @@ angular.module('textaculous')
 		function generateRegex(tag) {
 		    return new RegExp("(\\"+tag+"[^\\s]+)");
 		}
+
 	}]);

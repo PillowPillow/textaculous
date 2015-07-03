@@ -1,4 +1,2 @@
 angular.module('app')
-	.controller('app.controllers.app', function() {
-
-	});
+	.controller('app.controllers.app', function() {});

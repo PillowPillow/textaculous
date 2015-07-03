@@ -6,7 +6,8 @@ angular.module('textaculous')
 		function(parserService, dropService, $interval){
 			return {
 				scope: {
-					raw: '=ngModel'
+					raw: '=ngModel',
+					placeholder: '=placeholder'
 				},
 				restrict: 'AE',
 				templateUrl: '../lib/templates/textaculous.jade',
@@ -64,7 +65,6 @@ angular.module('textaculous')
 					$scope.isHighlighted = (index) => !!~textaculous.$$highlightedIndexes.indexOf(index);
 
 					$scope.$watch('raw', (value) => {
-
 						var {highlightedRanges, splitted, highlighted, highlightedIndexes} = parserService.parse(value);
 
 						textaculous.text = splitted;
